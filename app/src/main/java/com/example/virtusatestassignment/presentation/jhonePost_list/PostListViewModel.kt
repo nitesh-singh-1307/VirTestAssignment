@@ -23,6 +23,7 @@ class PostListViewModel @Inject constructor(
         getCoins()
     }
 
+
     private fun getCoins() {
         getPostUseCase(endPoint).onEach { result ->
             when (result) {

@@ -30,16 +30,7 @@ fun PostListScreen(
     val state = viewModel.state.value
     Log.d("TAG","checkState::::::$state")
     Box(modifier = Modifier.fillMaxSize()) {
-//        LazyColumn(modifier = Modifier.fillMaxSize()) {
-//            items(state.coins) { coin ->
-//                PostListItem(
-//                    coin = coin,
-//                    onItemClick = {
-//                        navController.navigate(Screen.PostListScreen.route + "/${coin.book_id}")
-//                    }
-//                )
-//            }
-//        }
+
 
         Row(
             modifier = Modifier

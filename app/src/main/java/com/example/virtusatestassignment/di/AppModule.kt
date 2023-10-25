@@ -26,6 +26,7 @@ object AppModule {
             .create(PostJhoneApi::class.java)
     }
 
+
     @Provides
     @Singleton
     fun provideCoinRepository(api: PostJhoneApi): PostJhoneRepository {
