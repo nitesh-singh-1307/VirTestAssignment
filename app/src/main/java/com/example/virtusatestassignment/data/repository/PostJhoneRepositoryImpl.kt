@@ -8,8 +8,6 @@ import javax.inject.Inject
 class PostJhoneRepositoryImpl @Inject constructor(
     private val api: PostJhoneApi
 ) : PostJhoneRepository {
-
-
     override suspend fun getPost(endPoint:String): JhonBook {
         return api.getPost(endPoint)
     }

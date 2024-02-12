@@ -31,7 +31,6 @@ class MainActivity : ComponentActivity() {
                             PostListScreen(navController)
                         }
 
-
                     }
                 }
             }
